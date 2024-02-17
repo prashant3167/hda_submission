@@ -69,7 +69,7 @@ def gtcc(y, sr):
         window_time=window_size,
         hop_time=hop_size,
         channels=num_mel_filters,
-        f_min=1e-10)
+        f_min=50)
     # print(gtm.shape)
     gtm_log = np.log(gtm+1e-10)
     

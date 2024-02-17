@@ -345,7 +345,6 @@ def bell():
 
 
 from tensorflow.keras.models import load_model
-from pandas import pd
 import numpy as np
 def test_acc(trained_model, X_test):
     predicted = trained_model.predict(
